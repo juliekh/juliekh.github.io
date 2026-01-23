@@ -1,0 +1,72 @@
+/* General styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.section {
+  padding: 60px 80px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+/* Navigation bar */
+header {
+  background: #222;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.site-title {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* About section */
+.about-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+/* Footer */
+footer {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
