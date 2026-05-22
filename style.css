@@ -2,8 +2,6 @@ body {
     font-family: 'Segoe UI', Verdana, Arial, sans-serif;
     margin: 0;
     background-color: #000;
-    background-image: url("data:image/svg+xml;utf8,<svg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='24' r='1.5' fill='%23fff'/><circle cx='95' cy='58' r='1' fill='%23ffd9b3'/><circle cx='62' cy='100' r='0.8' fill='%23e6f2ff'/></svg>");
-    background-repeat: repeat;
     color: #ffe6cc; /* warm sand/bronze */
 }
 
