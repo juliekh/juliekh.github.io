@@ -1,74 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Your Name</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julie Kh - Astrophysicist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Header / Navigation -->
-  <header>
     <nav class="navbar">
-      <h1 class="site-title">Your Name</h1>
-      <ul class="nav-links">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#publications">Publications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        <ul id="nav-tabs">
+            <li class="tab-link active" data-tab="about">About Me</li>
+            <li class="tab-link" data-tab="publications">Publications</li>
+            <li class="tab-link" data-tab="outreach">Outreach</li>
+            <li class="tab-link" data-tab="contact">Contact</li>
+        </ul>
     </nav>
-  </header>
-
-  <!-- About Me Section -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <div class="about-container">
-      <img src="profile-placeholder.jpg" alt="Profile photo" class="profile-photo">
-      <p>
-        This is a short description about you.  
-        Write a few sentences about your background, interests, or current work.
-        This text is just a placeholder for now.
-      </p>
-    </div>
-  </section>
-
-  <!-- Resume Section -->
-  <section id="resume" class="section">
-    <h2>Resume</h2>
-    <p>
-      Placeholder for resume content.  
-      You might later include education, experience, skills, or a link to a PDF.
-    </p>
-    <ul>
-      <li>Education – Placeholder</li>
-      <li>Experience – Placeholder</li>
-      <li>Skills – Placeholder</li>
-    </ul>
-  </section>
-
-  <!-- Publications Section -->
-  <section id="publications" class="section">
-    <h2>Publications</h2>
-    <ul>
-      <li>Publication Title 1 – Journal / Year</li>
-      <li>Publication Title 2 – Journal / Year</li>
-      <li>Publication Title 3 – Journal / Year</li>
-    </ul>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>GitHub: https://github.com/yourusername</p>
-    <p>LinkedIn: https://linkedin.com/in/yourname</p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Your Name</p>
-  </footer>
-
+    <main>
+        <section id="about" class="tab-content active">
+            <div class="bio-container">
+                <img src="profile-placeholder.jpg" alt="Profile Picture" class="profile-pic">
+                <div>
+                    <h1>Dr. Julie Kh</h1>
+                    <p>
+                        <!-- Short bio goes here -->
+                        Welcome! I am an astrophysicist focused on both research and science outreach. My work explores the formation and evolution of galaxies, and I am passionate about making science accessible to everyone.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="publications" class="tab-content">
+            <h2>Publications</h2>
+            <ul id="publications-list">
+                <li><em>Publication 1</em> – Journal Name, Year</li>
+                <li><em>Publication 2</em> – Journal Name, Year</li>
+                <!-- Add more publications here -->
+            </ul>
+        </section>
+        <section id="outreach" class="tab-content">
+            <h2>Outreach Events</h2>
+            <ul id="outreach-list">
+                <li>Science Talk at Local Library – June 2026</li>
+                <li>Online Astronomy Q&A – July 2026</li>
+                <!-- Add more outreach items here -->
+            </ul>
+        </section>
+        <section id="contact" class="tab-content">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:your.email@domain.com">your.email@domain.com</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
