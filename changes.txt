@@ -1,5 +1,5 @@
 make publication images forced squares
-add image to outreach tab
-add "this page was created with the use of copilot and is still under construction" to the bottom of the about-me page
+add ADAMtalk image to the top of outreach tab
+add "this page was created with the assistance of Github Copilot and is still under construction" to the bottom of the background
 make spacing more pretty in outreach
 teaching? maybe make outreach (call it something else) consist of 4 tiles
