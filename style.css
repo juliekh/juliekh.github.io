@@ -59,11 +59,81 @@ main {
     object-fit: cover;
 }
 
-@media (max-width: 650px) {
+/* Publication Cards */
+.publications-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pub-card {
+    display: flex;
+    flex-direction: row;
+    background: #232841;
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 180px;
+    box-shadow: 0 2px 16px 0 rgba(48,103,188,0.075);
+    align-items: stretch;
+}
+.pub-image {
+    width: 160px;
+    min-height: 180px;
+    object-fit: cover;
+    background: #3c4567;
+    border-right: 3px solid #23315b;
+}
+.pub-info {
+    flex: 1;
+    padding: 1.3rem 2rem 1.3rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pub-title {
+    font-size: 1.13rem;
+    font-weight: 600;
+    color: #82b1fd;
+    margin-bottom: 0.37rem;
+    text-decoration: none;
+}
+.pub-title:hover {
+    text-decoration: underline;
+}
+.pub-meta {
+    font-size: 1rem;
+    font-style: italic;
+    color: #95a7bc;
+    margin-bottom: 0.5rem;
+}
+.pub-desc {
+    font-size: 1.0rem;
+    color: #e2eafc;
+}
+
+@media (max-width: 800px) {
     main {
-        max-width: 98vw;
-        padding: 1rem 0.5rem;
+        padding: 1rem;
     }
+    .pub-card {
+        flex-direction: column;
+        min-height: unset;
+    }
+    .pub-image {
+        width: 100%;
+        min-height: 120px;
+        border-right: none;
+        border-bottom: 3px solid #23315b;
+    }
+    .pub-info {
+        padding: 1.1rem;
+    }
+}
+
+@media (max-width: 650px) {
     .bio-container {
         flex-direction: column;
         gap: 1rem;
