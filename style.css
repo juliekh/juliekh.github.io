@@ -116,6 +116,20 @@ main {
     color: #ffe6cc;
 }
 
+/* All hyperlinks: match tab header orange */
+a,
+a:visited {
+    color: #ff9b42;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+    color: #ff964f;
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
     main {
         padding: 1rem;
