@@ -1,0 +1,5 @@
+make publication images forced squares
+add image to outreach tab
+add "this page was created with the use of copilot and is still under construction" to the bottom of the about-me page
+make spacing more pretty in outreach
+teaching? maybe make outreach (call it something else) consist of 4 tiles
