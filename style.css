@@ -1,13 +1,13 @@
 body {
     font-family: 'Segoe UI', Verdana, Arial, sans-serif;
     margin: 0;
-    background: #121726;
-    color: #eee;
+    background: #26190f; /* deep espresso brown */
+    color: #ffe6cc; /* warm sand/bronze */
 }
 
 .navbar {
-    background: #1c2030;
-    box-shadow: 0 2px 8px rgba(40,40,70,.10);
+    background: #3a2314; /* coffee bean brown */
+    box-shadow: 0 2px 8px rgba(120, 72, 32, .13);
 }
 #nav-tabs {
     display: flex;
@@ -19,22 +19,23 @@ body {
 .tab-link {
     padding: 1.1rem 2rem;
     cursor: pointer;
-    color: #c9e6ff;
+    color: #ff9b42; /* soft copper/orange */
     font-weight: 500;
     border-bottom: 3px solid transparent;
     transition: 0.2s;
 }
 .tab-link.active, .tab-link:hover {
-    border-bottom: 3px solid #8ab6f7;
-    color: #fff;
+    border-bottom: 3px solid #e57c23; /* bold burnt orange accent */
+    color: #fff3e5;
+    background: linear-gradient(to top, #b05d19 0%, #3a2314 90%);
 }
 main {
     max-width: 820px;
     margin: 2.5rem auto;
-    background: #171b29;
+    background: #402510; /* dark copper brown */
     border-radius: 10px;
     padding: 2rem 2.5rem;
-    box-shadow: 0 4px 16px rgba(40,40,70,0.13);
+    box-shadow: 0 4px 24px rgba(176,93,25,0.13);
 }
 .tab-content {
     display: none;
@@ -53,8 +54,8 @@ main {
     width: 280px;
     height: 280px;
     border-radius: 50%;
-    border: 8px solid #3067bc;
-    background: #23315b;
+    border: 8px solid #ff9b42; /* copper border */
+    background: #4e2c10; /* brown background */
     flex-shrink: 0;
     object-fit: cover;
 }
@@ -72,19 +73,19 @@ main {
 .pub-card {
     display: flex;
     flex-direction: row;
-    background: #232841;
+    background: #342019; /* deep brown */
     border-radius: 12px;
     overflow: hidden;
     min-height: 180px;
-    box-shadow: 0 2px 16px 0 rgba(48,103,188,0.075);
+    box-shadow: 0 2px 16px 0 rgba(204,119,34,0.08);
     align-items: stretch;
 }
 .pub-image {
     width: 160px;
     min-height: 180px;
     object-fit: cover;
-    background: #3c4567;
-    border-right: 3px solid #23315b;
+    background: #502c16; /* robust copper shade for placeholder */
+    border-right: 3px solid #cc7722;
 }
 .pub-info {
     flex: 1;
@@ -96,22 +97,23 @@ main {
 .pub-title {
     font-size: 1.13rem;
     font-weight: 600;
-    color: #82b1fd;
+    color: #ff964f; /* vivid copper/orange */
     margin-bottom: 0.37rem;
     text-decoration: none;
 }
 .pub-title:hover {
     text-decoration: underline;
+    color: #ffe6cc;
 }
 .pub-meta {
     font-size: 1rem;
     font-style: italic;
-    color: #95a7bc;
+    color: #e1ba8a; /* soft bronze */
     margin-bottom: 0.5rem;
 }
 .pub-desc {
     font-size: 1.0rem;
-    color: #e2eafc;
+    color: #ffe6cc;
 }
 
 @media (max-width: 800px) {
@@ -126,7 +128,7 @@ main {
         width: 100%;
         min-height: 120px;
         border-right: none;
-        border-bottom: 3px solid #23315b;
+        border-bottom: 3px solid #cc7722;
     }
     .pub-info {
         padding: 1.1rem;
