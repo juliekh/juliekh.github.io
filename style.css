@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Verdana, Arial, sans-serif;
     margin: 0;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     color: #333333; /* dark gray text */
 }
 
@@ -33,7 +33,7 @@ body {
 main {
     max-width: 820px;
     margin: 2.5rem auto;
-    background: #ffffff; /* white content area */
+    background: #f0f0f0; /* light grey content area */
     border-radius: 10px;
     border: 2px solid #ff9b42; /* orange outline */
     padding: 2rem 2.5rem;
@@ -57,17 +57,26 @@ main {
     height: 280px;
     border-radius: 50%;
     border: 8px solid #ff9b42; /* copper border */
-    background: #f0f0f0; /* light background */
+    background: #ffffff; /* white background */
     flex-shrink: 0;
     object-fit: cover;
 }
 
 /* Outreach Banner Image */
 .outreach-banner {
-    width: 80%;
+    width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 2rem auto;
+    margin: 0 0 2rem 0;
+    border-radius: 8px;
+    border: 2px solid #ff9b42; /* orange outline */
+}
+
+.dissemination-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 2rem 0;
     border-radius: 8px;
     border: 2px solid #ff9b42; /* orange outline */
 }
@@ -85,7 +94,7 @@ main {
 .pub-card {
     display: flex;
     flex-direction: row;
-    background: #fafafa; /* very light gray */
+    background: #ffffff; /* white */
     border-radius: 12px;
     overflow: hidden;
     min-height: 180px;
