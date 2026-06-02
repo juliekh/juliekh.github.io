@@ -33,7 +33,7 @@ body {
 main {
     max-width: 820px;
     margin: 2.5rem auto;
-    background: #f0f0f0; /* light grey content area */
+    background: #fff8f0; /* very light peach content area */
     border-radius: 10px;
     border: 2px solid #ff9b42; /* orange outline */
     padding: 2rem 2.5rem;
