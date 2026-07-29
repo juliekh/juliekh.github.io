@@ -1,3 +1,2 @@
 make publication images forced squares
-add "this page was created with the assistance of Github Copilot and is still under construction" to the bottom of the background
-teaching? maybe make outreach (call it something else) consist of 4 tiles
+NEWS segment on fromt page 
